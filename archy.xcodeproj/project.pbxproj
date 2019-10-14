@@ -10,6 +10,11 @@
 		2CBBBCF95D85A370EC6D8CC9 /* Pods_archy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C8DE69FAFD357F9D3151CDE /* Pods_archy.framework */; };
 		7554D64D42D9ACAB4E0F4FE8 /* Pods_archyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6E786E4D5B5F97A97F3AC1 /* Pods_archyTests.framework */; };
 		CDEF45BB6DCC208DCBE574BB /* Pods_archy_archyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1AD26A21F62DB831A7C593F /* Pods_archy_archyUITests.framework */; };
+		F715AE2623541B5200C472C1 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F715AE2523541B5200C472C1 /* HomeVC.xib */; };
+		F715AE2D2354296300C472C1 /* VideosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F715AE282354296300C472C1 /* VideosVC.swift */; };
+		F715AE2E2354296300C472C1 /* VideosCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F715AE2A2354296300C472C1 /* VideosCell.xib */; };
+		F715AE2F2354296300C472C1 /* VideosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F715AE2B2354296300C472C1 /* VideosCell.swift */; };
+		F715AE302354296300C472C1 /* VideosVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F715AE2C2354296300C472C1 /* VideosVC.xib */; };
 		F7A784F52346E7E50015DD0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A784F42346E7E50015DD0A /* AppDelegate.swift */; };
 		F7A784FF2346E7E50015DD0A /* archy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F7A784FD2346E7E50015DD0A /* archy.xcdatamodeld */; };
 		F7A785012346E7E80015DD0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A785002346E7E80015DD0A /* Assets.xcassets */; };
@@ -17,7 +22,6 @@
 		F7A7850F2346E7E90015DD0A /* archyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A7850E2346E7E90015DD0A /* archyTests.swift */; };
 		F7A7851A2346E7E90015DD0A /* archyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A785192346E7E90015DD0A /* archyUITests.swift */; };
 		F7A7852E2346E8990015DD0A /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A7852C2346E8990015DD0A /* HomeVC.swift */; };
-		F7A7852F2346E8990015DD0A /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7A7852D2346E8990015DD0A /* HomeVC.xib */; };
 		F7A785332346E8F80015DD0A /* SetDistanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A785312346E8F80015DD0A /* SetDistanceVC.swift */; };
 		F7A785342346E8F80015DD0A /* SetDistanceVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7A785322346E8F80015DD0A /* SetDistanceVC.xib */; };
 		F7A7853C2346E98D0015DD0A /* TipsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A7853A2346E98D0015DD0A /* TipsVC.swift */; };
@@ -58,6 +62,11 @@
 		770E6865A4C8DDFF18069801 /* Pods-archy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-archy.release.xcconfig"; path = "Target Support Files/Pods-archy/Pods-archy.release.xcconfig"; sourceTree = "<group>"; };
 		8C000512FD4D84FA2D775E64 /* Pods-archy-archyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-archy-archyUITests.debug.xcconfig"; path = "Target Support Files/Pods-archy-archyUITests/Pods-archy-archyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B1AD26A21F62DB831A7C593F /* Pods_archy_archyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_archy_archyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F715AE2523541B5200C472C1 /* HomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		F715AE282354296300C472C1 /* VideosVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosVC.swift; sourceTree = "<group>"; };
+		F715AE2A2354296300C472C1 /* VideosCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideosCell.xib; sourceTree = "<group>"; };
+		F715AE2B2354296300C472C1 /* VideosCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosCell.swift; sourceTree = "<group>"; };
+		F715AE2C2354296300C472C1 /* VideosVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideosVC.xib; sourceTree = "<group>"; };
 		F7A784F12346E7E50015DD0A /* archy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = archy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A784F42346E7E50015DD0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7A784FE2346E7E50015DD0A /* archy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = archy.xcdatamodel; sourceTree = "<group>"; };
@@ -71,7 +80,6 @@
 		F7A785192346E7E90015DD0A /* archyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = archyUITests.swift; sourceTree = "<group>"; };
 		F7A7851B2346E7E90015DD0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7A7852C2346E8990015DD0A /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
-		F7A7852D2346E8990015DD0A /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
 		F7A785312346E8F80015DD0A /* SetDistanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetDistanceVC.swift; sourceTree = "<group>"; };
 		F7A785322346E8F80015DD0A /* SetDistanceVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SetDistanceVC.xib; sourceTree = "<group>"; };
 		F7A7853A2346E98D0015DD0A /* TipsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsVC.swift; sourceTree = "<group>"; };
@@ -138,6 +146,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F715AE272354296300C472C1 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				F715AE282354296300C472C1 /* VideosVC.swift */,
+				F715AE292354296300C472C1 /* VideosCell */,
+				F715AE2C2354296300C472C1 /* VideosVC.xib */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		F715AE292354296300C472C1 /* VideosCell */ = {
+			isa = PBXGroup;
+			children = (
+				F715AE2A2354296300C472C1 /* VideosCell.xib */,
+				F715AE2B2354296300C472C1 /* VideosCell.swift */,
+			);
+			path = VideosCell;
+			sourceTree = "<group>";
+		};
 		F7A784E82346E7E40015DD0A = {
 			isa = PBXGroup;
 			children = (
@@ -195,8 +222,8 @@
 		F7A7852B2346E86F0015DD0A /* HomeVC */ = {
 			isa = PBXGroup;
 			children = (
+				F715AE2523541B5200C472C1 /* HomeVC.xib */,
 				F7A7852C2346E8990015DD0A /* HomeVC.swift */,
-				F7A7852D2346E8990015DD0A /* HomeVC.xib */,
 			);
 			path = HomeVC;
 			sourceTree = "<group>";
@@ -252,6 +279,7 @@
 		F7D208E92353741F00E3B638 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				F715AE272354296300C472C1 /* Videos */,
 				F7D208F52353745600E3B638 /* Albums */,
 			);
 			path = Library;
@@ -390,9 +418,11 @@
 				F7D208FB2353745600E3B638 /* AlbumsVC.xib in Resources */,
 				F7A785422346E9DF0015DD0A /* BodyCalibrationVC.xib in Resources */,
 				F7D208FE2353745600E3B638 /* AlbumCell.xib in Resources */,
+				F715AE2E2354296300C472C1 /* VideosCell.xib in Resources */,
 				F7A785472346EA200015DD0A /* PracticeVC.xib in Resources */,
 				F7A7853D2346E98D0015DD0A /* TipsVC.xib in Resources */,
-				F7A7852F2346E8990015DD0A /* HomeVC.xib in Resources */,
+				F715AE302354296300C472C1 /* VideosVC.xib in Resources */,
+				F715AE2623541B5200C472C1 /* HomeVC.xib in Resources */,
 				F7A785012346E7E80015DD0A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,9 +554,11 @@
 				F7A785412346E9DF0015DD0A /* BodyCalibrationVC.swift in Sources */,
 				F7A7852E2346E8990015DD0A /* HomeVC.swift in Sources */,
 				F7A785332346E8F80015DD0A /* SetDistanceVC.swift in Sources */,
+				F715AE2F2354296300C472C1 /* VideosCell.swift in Sources */,
 				F7A7853C2346E98D0015DD0A /* TipsVC.swift in Sources */,
 				F7A784FF2346E7E50015DD0A /* archy.xcdatamodeld in Sources */,
 				F7A784F52346E7E50015DD0A /* AppDelegate.swift in Sources */,
+				F715AE2D2354296300C472C1 /* VideosVC.swift in Sources */,
 				F7D208FC2353745600E3B638 /* AlbumsVC.swift in Sources */,
 				F7A785462346EA200015DD0A /* PracticeVC.swift in Sources */,
 				F7D208FD2353745600E3B638 /* AlbumCell.swift in Sources */,
