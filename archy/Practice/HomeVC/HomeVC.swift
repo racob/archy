@@ -53,7 +53,7 @@ class HomeVC: UIViewController {
     }
     
     @IBAction func libraryBtnTapped(_ sender: Any) {
-        self.navigationController?.pushViewController(AlbumsVC(), animated: true)
+//        self.navigationController?.pushViewController(AlbumsVC(), animated: true)
     }
     
     /*

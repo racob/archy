@@ -7,14 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2CBBBCF95D85A370EC6D8CC9 /* Pods_archy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C8DE69FAFD357F9D3151CDE /* Pods_archy.framework */; };
-		7554D64D42D9ACAB4E0F4FE8 /* Pods_archyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6E786E4D5B5F97A97F3AC1 /* Pods_archyTests.framework */; };
-		CDEF45BB6DCC208DCBE574BB /* Pods_archy_archyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1AD26A21F62DB831A7C593F /* Pods_archy_archyUITests.framework */; };
+		01874003D40D8A2B84DE0B04 /* Pods_archy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0AE236FDEB262D4C78FD777 /* Pods_archy.framework */; };
+		0808309099079AF8A6B629C6 /* Pods_archy_archyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF14F6CB231BEAF93760989 /* Pods_archy_archyUITests.framework */; };
+		55BB1E30DCDB30C2710DD7D1 /* Pods_archyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C840AC7ABABD692FC8145D /* Pods_archyTests.framework */; };
 		F715AE2623541B5200C472C1 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F715AE2523541B5200C472C1 /* HomeVC.xib */; };
-		F715AE2D2354296300C472C1 /* VideosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F715AE282354296300C472C1 /* VideosVC.swift */; };
-		F715AE2E2354296300C472C1 /* VideosCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F715AE2A2354296300C472C1 /* VideosCell.xib */; };
-		F715AE2F2354296300C472C1 /* VideosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F715AE2B2354296300C472C1 /* VideosCell.swift */; };
-		F715AE302354296300C472C1 /* VideosVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F715AE2C2354296300C472C1 /* VideosVC.xib */; };
 		F7A784F52346E7E50015DD0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A784F42346E7E50015DD0A /* AppDelegate.swift */; };
 		F7A784FF2346E7E50015DD0A /* archy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F7A784FD2346E7E50015DD0A /* archy.xcdatamodeld */; };
 		F7A785012346E7E80015DD0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A785002346E7E80015DD0A /* Assets.xcassets */; };
@@ -30,10 +26,6 @@
 		F7A785422346E9DF0015DD0A /* BodyCalibrationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7A785402346E9DF0015DD0A /* BodyCalibrationVC.xib */; };
 		F7A785462346EA200015DD0A /* PracticeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A785442346EA200015DD0A /* PracticeVC.swift */; };
 		F7A785472346EA200015DD0A /* PracticeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7A785452346EA200015DD0A /* PracticeVC.xib */; };
-		F7D208FB2353745600E3B638 /* AlbumsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7D208F62353745600E3B638 /* AlbumsVC.xib */; };
-		F7D208FC2353745600E3B638 /* AlbumsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D208F72353745600E3B638 /* AlbumsVC.swift */; };
-		F7D208FD2353745600E3B638 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D208F92353745600E3B638 /* AlbumCell.swift */; };
-		F7D208FE2353745600E3B638 /* AlbumCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7D208FA2353745600E3B638 /* AlbumCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,19 +46,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5C8DE69FAFD357F9D3151CDE /* Pods_archy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_archy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E8140176E88A2DC2D9CC392 /* Pods-archy-archyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-archy-archyUITests.release.xcconfig"; path = "Target Support Files/Pods-archy-archyUITests/Pods-archy-archyUITests.release.xcconfig"; sourceTree = "<group>"; };
-		63070C0190C97CC93DE68288 /* Pods-archyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-archyTests.debug.xcconfig"; path = "Target Support Files/Pods-archyTests/Pods-archyTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6FBEE194B1B8C374D29F6392 /* Pods-archy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-archy.debug.xcconfig"; path = "Target Support Files/Pods-archy/Pods-archy.debug.xcconfig"; sourceTree = "<group>"; };
-		75C08601D200BF0367B62BE6 /* Pods-archyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-archyTests.release.xcconfig"; path = "Target Support Files/Pods-archyTests/Pods-archyTests.release.xcconfig"; sourceTree = "<group>"; };
-		770E6865A4C8DDFF18069801 /* Pods-archy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-archy.release.xcconfig"; path = "Target Support Files/Pods-archy/Pods-archy.release.xcconfig"; sourceTree = "<group>"; };
-		8C000512FD4D84FA2D775E64 /* Pods-archy-archyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-archy-archyUITests.debug.xcconfig"; path = "Target Support Files/Pods-archy-archyUITests/Pods-archy-archyUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		B1AD26A21F62DB831A7C593F /* Pods_archy_archyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_archy_archyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		288B9E367D3610BF678758A0 /* Pods-archyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-archyTests.release.xcconfig"; path = "Target Support Files/Pods-archyTests/Pods-archyTests.release.xcconfig"; sourceTree = "<group>"; };
+		2BF14F6CB231BEAF93760989 /* Pods_archy_archyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_archy_archyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FAA40840C14CB26BDF0EA8E /* Pods-archy-archyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-archy-archyUITests.release.xcconfig"; path = "Target Support Files/Pods-archy-archyUITests/Pods-archy-archyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		604470629CA50320A9475E27 /* Pods-archy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-archy.release.xcconfig"; path = "Target Support Files/Pods-archy/Pods-archy.release.xcconfig"; sourceTree = "<group>"; };
+		69C840AC7ABABD692FC8145D /* Pods_archyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_archyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C5C8BCD248722ACF1F91F7 /* Pods-archyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-archyTests.debug.xcconfig"; path = "Target Support Files/Pods-archyTests/Pods-archyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C306266FF36322580F1AF677 /* Pods-archy-archyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-archy-archyUITests.debug.xcconfig"; path = "Target Support Files/Pods-archy-archyUITests/Pods-archy-archyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0AE236FDEB262D4C78FD777 /* Pods_archy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_archy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8A5D9D8FC37CD41451A2B86 /* Pods-archy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-archy.debug.xcconfig"; path = "Target Support Files/Pods-archy/Pods-archy.debug.xcconfig"; sourceTree = "<group>"; };
 		F715AE2523541B5200C472C1 /* HomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
-		F715AE282354296300C472C1 /* VideosVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosVC.swift; sourceTree = "<group>"; };
-		F715AE2A2354296300C472C1 /* VideosCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideosCell.xib; sourceTree = "<group>"; };
-		F715AE2B2354296300C472C1 /* VideosCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosCell.swift; sourceTree = "<group>"; };
-		F715AE2C2354296300C472C1 /* VideosVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideosVC.xib; sourceTree = "<group>"; };
 		F7A784F12346E7E50015DD0A /* archy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = archy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A784F42346E7E50015DD0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7A784FE2346E7E50015DD0A /* archy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = archy.xcdatamodel; sourceTree = "<group>"; };
@@ -88,11 +77,6 @@
 		F7A785402346E9DF0015DD0A /* BodyCalibrationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BodyCalibrationVC.xib; sourceTree = "<group>"; };
 		F7A785442346EA200015DD0A /* PracticeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeVC.swift; sourceTree = "<group>"; };
 		F7A785452346EA200015DD0A /* PracticeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PracticeVC.xib; sourceTree = "<group>"; };
-		F7D208F62353745600E3B638 /* AlbumsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlbumsVC.xib; sourceTree = "<group>"; };
-		F7D208F72353745600E3B638 /* AlbumsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumsVC.swift; sourceTree = "<group>"; };
-		F7D208F92353745600E3B638 /* AlbumCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
-		F7D208FA2353745600E3B638 /* AlbumCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlbumCell.xib; sourceTree = "<group>"; };
-		FF6E786E4D5B5F97A97F3AC1 /* Pods_archyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_archyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CBBBCF95D85A370EC6D8CC9 /* Pods_archy.framework in Frameworks */,
+				01874003D40D8A2B84DE0B04 /* Pods_archy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7554D64D42D9ACAB4E0F4FE8 /* Pods_archyTests.framework in Frameworks */,
+				55BB1E30DCDB30C2710DD7D1 /* Pods_archyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,7 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDEF45BB6DCC208DCBE574BB /* Pods_archy_archyUITests.framework in Frameworks */,
+				0808309099079AF8A6B629C6 /* Pods_archy_archyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,43 +110,24 @@
 		0AC6E6C67A360116C13618A5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6FBEE194B1B8C374D29F6392 /* Pods-archy.debug.xcconfig */,
-				770E6865A4C8DDFF18069801 /* Pods-archy.release.xcconfig */,
-				8C000512FD4D84FA2D775E64 /* Pods-archy-archyUITests.debug.xcconfig */,
-				5E8140176E88A2DC2D9CC392 /* Pods-archy-archyUITests.release.xcconfig */,
-				63070C0190C97CC93DE68288 /* Pods-archyTests.debug.xcconfig */,
-				75C08601D200BF0367B62BE6 /* Pods-archyTests.release.xcconfig */,
+				E8A5D9D8FC37CD41451A2B86 /* Pods-archy.debug.xcconfig */,
+				604470629CA50320A9475E27 /* Pods-archy.release.xcconfig */,
+				C306266FF36322580F1AF677 /* Pods-archy-archyUITests.debug.xcconfig */,
+				2FAA40840C14CB26BDF0EA8E /* Pods-archy-archyUITests.release.xcconfig */,
+				85C5C8BCD248722ACF1F91F7 /* Pods-archyTests.debug.xcconfig */,
+				288B9E367D3610BF678758A0 /* Pods-archyTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		AA761705A00CEE1CED286675 /* Frameworks */ = {
+		D3A1A5A1C9AD8848AED63EA4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5C8DE69FAFD357F9D3151CDE /* Pods_archy.framework */,
-				B1AD26A21F62DB831A7C593F /* Pods_archy_archyUITests.framework */,
-				FF6E786E4D5B5F97A97F3AC1 /* Pods_archyTests.framework */,
+				E0AE236FDEB262D4C78FD777 /* Pods_archy.framework */,
+				2BF14F6CB231BEAF93760989 /* Pods_archy_archyUITests.framework */,
+				69C840AC7ABABD692FC8145D /* Pods_archyTests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F715AE272354296300C472C1 /* Videos */ = {
-			isa = PBXGroup;
-			children = (
-				F715AE282354296300C472C1 /* VideosVC.swift */,
-				F715AE292354296300C472C1 /* VideosCell */,
-				F715AE2C2354296300C472C1 /* VideosVC.xib */,
-			);
-			path = Videos;
-			sourceTree = "<group>";
-		};
-		F715AE292354296300C472C1 /* VideosCell */ = {
-			isa = PBXGroup;
-			children = (
-				F715AE2A2354296300C472C1 /* VideosCell.xib */,
-				F715AE2B2354296300C472C1 /* VideosCell.swift */,
-			);
-			path = VideosCell;
 			sourceTree = "<group>";
 		};
 		F7A784E82346E7E40015DD0A = {
@@ -173,7 +138,7 @@
 				F7A785182346E7E90015DD0A /* archyUITests */,
 				F7A784F22346E7E50015DD0A /* Products */,
 				0AC6E6C67A360116C13618A5 /* Pods */,
-				AA761705A00CEE1CED286675 /* Frameworks */,
+				D3A1A5A1C9AD8848AED63EA4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -279,29 +244,8 @@
 		F7D208E92353741F00E3B638 /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				F715AE272354296300C472C1 /* Videos */,
-				F7D208F52353745600E3B638 /* Albums */,
 			);
 			path = Library;
-			sourceTree = "<group>";
-		};
-		F7D208F52353745600E3B638 /* Albums */ = {
-			isa = PBXGroup;
-			children = (
-				F7D208F62353745600E3B638 /* AlbumsVC.xib */,
-				F7D208F72353745600E3B638 /* AlbumsVC.swift */,
-				F7D208F82353745600E3B638 /* AlbumCell */,
-			);
-			path = Albums;
-			sourceTree = "<group>";
-		};
-		F7D208F82353745600E3B638 /* AlbumCell */ = {
-			isa = PBXGroup;
-			children = (
-				F7D208F92353745600E3B638 /* AlbumCell.swift */,
-				F7D208FA2353745600E3B638 /* AlbumCell.xib */,
-			);
-			path = AlbumCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,11 +255,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7A7851E2346E7E90015DD0A /* Build configuration list for PBXNativeTarget "archy" */;
 			buildPhases = (
-				34DF4CF433787D955B1B8C06 /* [CP] Check Pods Manifest.lock */,
+				680CC0F75188F109736E43D6 /* [CP] Check Pods Manifest.lock */,
 				F7A784ED2346E7E40015DD0A /* Sources */,
 				F7A784EE2346E7E40015DD0A /* Frameworks */,
 				F7A784EF2346E7E40015DD0A /* Resources */,
-				07A613AAF76909637B5E3625 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -330,7 +273,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7A785212346E7E90015DD0A /* Build configuration list for PBXNativeTarget "archyTests" */;
 			buildPhases = (
-				DD550A9CE03C2A3D066F7FA4 /* [CP] Check Pods Manifest.lock */,
+				DA8352975BC9BA4431F078B2 /* [CP] Check Pods Manifest.lock */,
 				F7A785062346E7E90015DD0A /* Sources */,
 				F7A785072346E7E90015DD0A /* Frameworks */,
 				F7A785082346E7E90015DD0A /* Resources */,
@@ -349,11 +292,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7A785242346E7E90015DD0A /* Build configuration list for PBXNativeTarget "archyUITests" */;
 			buildPhases = (
-				185B926533A4C1DAD427607D /* [CP] Check Pods Manifest.lock */,
+				C93929B88E25284817749F66 /* [CP] Check Pods Manifest.lock */,
 				F7A785112346E7E90015DD0A /* Sources */,
 				F7A785122346E7E90015DD0A /* Frameworks */,
 				F7A785132346E7E90015DD0A /* Resources */,
-				FE085CF113DE0C6AD1B9E722 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -415,13 +357,9 @@
 			files = (
 				F7A785042346E7E80015DD0A /* LaunchScreen.storyboard in Resources */,
 				F7A785342346E8F80015DD0A /* SetDistanceVC.xib in Resources */,
-				F7D208FB2353745600E3B638 /* AlbumsVC.xib in Resources */,
 				F7A785422346E9DF0015DD0A /* BodyCalibrationVC.xib in Resources */,
-				F7D208FE2353745600E3B638 /* AlbumCell.xib in Resources */,
-				F715AE2E2354296300C472C1 /* VideosCell.xib in Resources */,
 				F7A785472346EA200015DD0A /* PracticeVC.xib in Resources */,
 				F7A7853D2346E98D0015DD0A /* TipsVC.xib in Resources */,
-				F715AE302354296300C472C1 /* VideosVC.xib in Resources */,
 				F715AE2623541B5200C472C1 /* HomeVC.xib in Resources */,
 				F7A785012346E7E80015DD0A /* Assets.xcassets in Resources */,
 			);
@@ -444,46 +382,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		07A613AAF76909637B5E3625 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-archy/Pods-archy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-archy/Pods-archy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-archy/Pods-archy-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		185B926533A4C1DAD427607D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-archy-archyUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		34DF4CF433787D955B1B8C06 /* [CP] Check Pods Manifest.lock */ = {
+		680CC0F75188F109736E43D6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -505,7 +404,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DD550A9CE03C2A3D066F7FA4 /* [CP] Check Pods Manifest.lock */ = {
+		C93929B88E25284817749F66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-archy-archyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA8352975BC9BA4431F078B2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -527,23 +448,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FE085CF113DE0C6AD1B9E722 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-archy-archyUITests/Pods-archy-archyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-archy-archyUITests/Pods-archy-archyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-archy-archyUITests/Pods-archy-archyUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -554,14 +458,10 @@
 				F7A785412346E9DF0015DD0A /* BodyCalibrationVC.swift in Sources */,
 				F7A7852E2346E8990015DD0A /* HomeVC.swift in Sources */,
 				F7A785332346E8F80015DD0A /* SetDistanceVC.swift in Sources */,
-				F715AE2F2354296300C472C1 /* VideosCell.swift in Sources */,
 				F7A7853C2346E98D0015DD0A /* TipsVC.swift in Sources */,
 				F7A784FF2346E7E50015DD0A /* archy.xcdatamodeld in Sources */,
 				F7A784F52346E7E50015DD0A /* AppDelegate.swift in Sources */,
-				F715AE2D2354296300C472C1 /* VideosVC.swift in Sources */,
-				F7D208FC2353745600E3B638 /* AlbumsVC.swift in Sources */,
 				F7A785462346EA200015DD0A /* PracticeVC.swift in Sources */,
-				F7D208FD2353745600E3B638 /* AlbumCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -724,7 +624,7 @@
 		};
 		F7A7851F2346E7E90015DD0A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FBEE194B1B8C374D29F6392 /* Pods-archy.debug.xcconfig */;
+			baseConfigurationReference = E8A5D9D8FC37CD41451A2B86 /* Pods-archy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -743,7 +643,7 @@
 		};
 		F7A785202346E7E90015DD0A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 770E6865A4C8DDFF18069801 /* Pods-archy.release.xcconfig */;
+			baseConfigurationReference = 604470629CA50320A9475E27 /* Pods-archy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -762,7 +662,7 @@
 		};
 		F7A785222346E7E90015DD0A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63070C0190C97CC93DE68288 /* Pods-archyTests.debug.xcconfig */;
+			baseConfigurationReference = 85C5C8BCD248722ACF1F91F7 /* Pods-archyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -785,7 +685,7 @@
 		};
 		F7A785232346E7E90015DD0A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75C08601D200BF0367B62BE6 /* Pods-archyTests.release.xcconfig */;
+			baseConfigurationReference = 288B9E367D3610BF678758A0 /* Pods-archyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -808,7 +708,7 @@
 		};
 		F7A785252346E7E90015DD0A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C000512FD4D84FA2D775E64 /* Pods-archy-archyUITests.debug.xcconfig */;
+			baseConfigurationReference = C306266FF36322580F1AF677 /* Pods-archy-archyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -829,7 +729,7 @@
 		};
 		F7A785262346E7E90015DD0A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E8140176E88A2DC2D9CC392 /* Pods-archy-archyUITests.release.xcconfig */;
+			baseConfigurationReference = 2FAA40840C14CB26BDF0EA8E /* Pods-archy-archyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
